@@ -1,15 +1,12 @@
 @charset "utf-8";
 
 *{margin:0; padding:0;}
-body{font-size:12px; line-height:18px; word-break: keep-all; font-family: "sebang";}
+body{font-size:12px; line-height:18px; word-break: keep-all; font-family: "sebang"; letter-spacing: 1px;}
 a{color:#111; text-decoration: none;}
 img{border:none; vertical-align:top; width: 100%; height: auto;}
 ul{list-style:none;}
 ol{list-style:none;}
 address{font-style:normal;}
 h1,h2,h3,h4,h5,h6,div,ul,li,ol,dl,dt,dd{box-sizing: border-box;}
-
-
-
 
 

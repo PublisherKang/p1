@@ -41,7 +41,7 @@ section h2{display: none;}
 .cont2_inner .main-banner-title{height: 52vw; padding-top: 5.3vw; padding-left: 48.5vw; color: #fff;}
 
 .cont2_inner .main-banner-title .title{display: block; font-size: 6vw; line-height: 8vw; font-family: "sebang-bold";}
-.cont2_inner .main-banner-title .sub_title{display: block; font-size: 2.8vw; line-height: 4vw; margin-top: 1.6vw;}
+.cont2_inner .main-banner-title .sub_title{display: block; font-size: 2.8vw; line-height: 4vw; margin-top: 1.6vw; letter-spacing: 1px;}
 
 .cont2_inner .main-banner-title .sub_title.tab{display: none;}
 
@@ -51,7 +51,7 @@ section h2{display: none;}
 .what{margin-bottom: 40px;}
 .what p{color: #fff;}
 .cont3_title{font-size: 6vw; line-height: 10vw; margin-bottom: 14px; font-family: "sebang-bold";}
-.cont3_sub_title{font-size: 3vw; line-height: 4.5vw; letter-spacing: 1.2px; margin-bottom: 50px;}
+.cont3_sub_title{font-size: 3vw; line-height: 4.5vw; letter-spacing: 1px; margin-bottom: 50px;}
 .cont3_img{margin-bottom: 50px;}
 
 .what ul li{margin-bottom: 6vw;}
@@ -94,11 +94,11 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 
 .road_text li span{display: block; font-size: 2.6vmin; line-height: 3.5vw;}
-.road_text li:nth-of-type(1) span{padding: 2vw 3vw 2vw 23.5vw;}
-.road_text li:nth-of-type(2) span{padding: 2vw 3vw 2vw 23.5vw;}
-.road_text li:nth-of-type(3) span{padding: 2vw 3vw 2vw 23.5vw;}
-.road_text li:nth-of-type(4) span{padding: 2vw 3vw 2vw 23.5vw;}
-.road_text li:nth-of-type(5) span{padding: 3vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(1) span{padding: 3.5vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(2) span{padding: 3.5vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(3) span{padding: 3.5vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(4) span{padding: 5vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(5) span{padding: 5vw 3vw 2vw 23.5vw;}
 
 .roadmap-description{text-align: center; font-size: 2vw; line-height: 4.5vw;}
 
@@ -125,7 +125,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 .profile-box p{ text-align: center;}
 
-.profile-box .name{font-size: 4vw; color: #fff; margin: 10px 0 3vw;}
+.profile-box .name{font-size: 4vw; color: #fff; margin: 10px 0 1.5vw;}
 .profile-box .sub-profile{color: #87909f; font-size: 3vw; line-height: 4vw;}
 
 .profile-box:nth-of-type(10){margin: 0 auto;}
@@ -133,7 +133,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 .historian_s{}
 .historian_s h4{color: #fff; font-size: 4vw; line-height: 6vw; margin-bottom: 6vw; color: #fff;}
 
-.historian_s li{padding-left: 6vw; background: url(../images/check-box.png) no-repeat 0 2px/ 4vw 4vw; color: #fff; margin-bottom: 2vw;}
+.historian_s li{padding-left: 6vw; background: url(../images/check-box.png) no-repeat 0 2px/ 4vw 4vw; color: #fff; margin-bottom: 4vw;}
 .historian_s li p{font-size: 3.4vw; line-height: 5vw;}
 
 .contact{padding: 40vw 10vw 20vw; background: url(../images/cont6-back-mobile.png) no-repeat 0 0/ cover;}
