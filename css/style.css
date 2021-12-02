@@ -79,7 +79,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 .edition-tablet-mobile{overflow: hidden; margin-bottom: 40px;}
 .edition-tablet-mobile-box{display: flex; left: -40%;}
-.edition-tablet-mobile-img {width: 30%; margin-right: 15px;}
+.edition-tablet-mobile-img {width: 45%; margin-right: 15px;}
 
 .roadmap{padding-bottom: 40px;}
 .roadmap p{color: #fff;}
@@ -95,7 +95,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 .road_text li span{display: block; font-size: 2.6vmin; line-height: 3.5vw;}
 .road_text li:nth-of-type(1) span{padding: 3.5vw 3vw 2vw 23.5vw;}
-.road_text li:nth-of-type(2) span{padding: 3.5vw 3vw 2vw 23.5vw;}
+.road_text li:nth-of-type(2) span{padding: 2vw 3vw 2vw 23.5vw;}
 .road_text li:nth-of-type(3) span{padding: 3.5vw 3vw 2vw 23.5vw;}
 .road_text li:nth-of-type(4) span{padding: 5vw 3vw 2vw 23.5vw;}
 .road_text li:nth-of-type(5) span{padding: 5vw 3vw 2vw 23.5vw;}
@@ -187,6 +187,15 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 .gnb_mobile .mail-box{width: 48vw; margin: 0 auto;}
 
+
+@media screen and (min-width:453px){
+    .road_text li:nth-of-type(2) span{padding: 3.5vw 3vw 2vw 23.5vw;}
+}
+
+@media screen and (max-width:452px){
+    .road_text li:nth-of-type(5) span{padding: 3vw 3vw 2vw 23.5vw;}
+}
+
 @media screen and (min-width:576px) {
     /* 스마트폰 가로 */
     .cont3_sub_title{font-size: 2.5vmin;}
@@ -217,7 +226,8 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     
     .profile-box:nth-of-type(9), .profile-box:nth-of-type(10){margin: 0 12vw}
 
-    .historian_s li p{font-size: 2.4vw;}
+    .historian_s li{background-size: 3.6vw 3.6vw; padding-left: 5vw;}
+    .historian_s li p{font-size: 2.4vw; line-height: 4vw;}
 
     .contact ul li{font-size: 3vw;}
     .contact ol li{font-size: 3vw;}
@@ -299,6 +309,8 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     .rarity_description{line-height: 3vw;}
     .edition-title{font-size: 28px; margin-bottom: 24px;}
 
+    .edition-tablet-mobile-img{width: 30%;}
+
     .road_text li span{padding: 3.4vw 6vw 2vw 23vw;}
 
     .road_text li{height: 12vw; background-repeat: no-repeat; background-position: 0 0; background-size: contain; margin-bottom: 2vw;}
@@ -320,7 +332,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     .profile-box .name{font-size: 2.6vw;}
     .profile-box .sub-profile{font-size: 2.2vw; line-height: 3vw;}
 
-    .historian_s li{background-position: 0 6px;}
+    .historian_s li{background-position: 0 0;}
 
     .contact{background-image: url(../images/cont6-back-tablet.png);}
     .contact ul li{font-size: 2.4vw; margin-bottom: 2vw;}
@@ -331,6 +343,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
     .subscribe-box{width: 60%; margin: 0 auto;}
     .middle-box p{font-size: 24px; line-height: 30px; margin-bottom: 20px;}
+
 }
 
 
@@ -436,17 +449,18 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     /* footer */
 
     #footer{padding: 50px 100px; display: flex; justify-content: space-around;}
-    #footer h5{display: block; width: 10%; margin-top: 50px;}
+    #footer h5{display: block; width: 20%; margin-top: 50px;}
 
-    .middle-box{width: 46%;margin-top: 20px;}
-    .middle-box p{text-align: left;}
+    .middle-box{width: 60%;margin-top: 20px; padding: 0 50px;}
+    .middle-box p{width: 500px; text-align: left; margin: 0 auto; margin-bottom: 14px;}
 
-    .subscribe-box{width: 100%; padding: 0; }
+    .subscribe-box{width: 500px; padding: 0;}
     .right-box{width: 20%}
 
     .community-text, .contact-text{padding: 20px 0;}
     .icon-box {width: 100%; margin: 0;}
     .icon-box img{width: 30px; height: auto;}
+    .mail-box{width: 276px;}
     .mail-box img{width: 40px; height: auto;}
 }
 
