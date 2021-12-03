@@ -71,12 +71,12 @@
 @media screen and (min-width:576px) {
 
     /* footer */
-    .icon-box{width: 460px; margin: 0 0 0 50px;}
+    .icon-box{width: 460px; margin: 0;}
     .icon-box img{width: 40px;}
 
     .mail-box img{width: 40px;}
     .mail-box p{margin-left: 10px; font-size: 20px; line-height: 30px;}
-    .community-text, .contact-text{font-size: 20px; line-height: 30px;}
+    .community-text, .contact-text{font-size: 20px; line-height: 1; padding: 6vw 0 2vw;}
     
 
 

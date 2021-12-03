@@ -12,9 +12,9 @@
 
 .cont1{width: 100%;}
 
-.cont1 h2{padding-top: 10.66666vw; text-align: center; font-size: 6.66666vw; margin-bottom: 2.5vw; text-shadow: 0 0 10px #000; color: #fff; line-height: 7vw;}
+.cont1 h2{padding-top: 10.66666vw; text-align: center; font-size: 5vw; margin-bottom: 2.5vw; text-shadow: 0 0 10px #000; color: #fff; line-height: 7vw;}
 
-.cont1 .sub_title{margin-bottom: 8.33333vw; text-align: center; color: #fff; font-size: 6.66666vw; text-shadow: 0 0 10px #000; line-height: 7vw;}
+.cont1 .sub_title{margin-bottom: 8.33333vw; text-align: center; color: #fff; font-size: 5vw; text-shadow: 0 0 10px #000; line-height: 7vw; font-weight: bold;}
 
 .pc_title{display: none;}
 

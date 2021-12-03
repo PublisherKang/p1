@@ -13,9 +13,9 @@
 
 .cont1{width: 100%;}
 
-.cont1 h2{padding-top: 10.66666vw; text-align: center; font-size: 6.66666vw; margin-bottom: 2.5vw; text-shadow: 4px 4px 10px #000; color: #b0ff00; line-height: 5vw;}
+.cont1 h2{padding-top: 10.66666vw; text-align: center; font-size: 5vw; margin-bottom: 2.5vw; text-shadow: 4px 4px 10px #000; color: #b0ff00; line-height: 5vw;}
 
-.cont1 .sub_title{margin-bottom: 8.33333vw; text-align: center; color: #b0ff00; font-size: 6.66666vw; text-shadow: 4px 4px 10px #000; line-height: 10vw; font-weight: bold;}
+.cont1 .sub_title{margin-bottom: 5.33333vw; text-align: center; color: #b0ff00; font-size: 5vw; text-shadow: 4px 4px 10px #000; line-height: 10vw; font-weight: bold;}
 
 .pc_title{display: none;}
 
