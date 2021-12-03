@@ -50,10 +50,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
     // mint wait
     $("#mintIn").click(function(e){
         e.preventDefault()

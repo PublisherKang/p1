@@ -10,41 +10,41 @@ window.onload = function() {
   // const premiumEditionImgBox = document.querySelector('#premium-edition-img-box');
   const ul = document.querySelector('#premium-edition-img-box');
 
-  moveBtnLeft.style.visibility = "hidden";
+  //moveBtnLeft.style.visibility = "hidden";
 
-  moveBtnLeft.addEventListener('click', (event) => {
-    const premiumEditionImgListWidth = premiumEditionImgList[0].clientWidth;
-    const moveWidth =( premiumEditionImgListWidth + 22.5);
+  // moveBtnLeft.addEventListener('click', (event) => {
+  //   const premiumEditionImgListWidth = premiumEditionImgList[0].clientWidth;
+  //   const moveWidth =( premiumEditionImgListWidth + 22.5);
 
-    if (lastPremiumEditionImgNum > 3) {
-      lastPremiumEditionImgNum -= 1;
+  //   if (lastPremiumEditionImgNum > 3) {
+  //     lastPremiumEditionImgNum -= 1;
 
-      ul.style.marginLeft = -(lastPremiumEditionImgNum - 3) * moveWidth +'px';
+  //     ul.style.marginLeft = -(lastPremiumEditionImgNum - 3) * moveWidth +'px';
 
-      moveBtnRight.style.visibility = "visible";
+  //     moveBtnRight.style.visibility = "visible";
 
-      if (lastPremiumEditionImgNum === 3) {
-        moveBtnLeft.style.visibility = "hidden";
-      }
-    }
-  });
+  //     if (lastPremiumEditionImgNum === 3) {
+  //       moveBtnLeft.style.visibility = "hidden";
+  //     }
+  //   }
+  // });
 
-  moveBtnRight.addEventListener('click', (event) => {
-    const premiumEditionImgListWidth = premiumEditionImgList[0].clientWidth;
-    const moveWidth = (premiumEditionImgListWidth + 22.5) ;
+  // moveBtnRight.addEventListener('click', (event) => {
+  //   const premiumEditionImgListWidth = premiumEditionImgList[0].clientWidth;
+  //   const moveWidth = (premiumEditionImgListWidth + 22.5) ;
 
-    if (lastPremiumEditionImgNum < 7) {
-      lastPremiumEditionImgNum += 1;
+  //   if (lastPremiumEditionImgNum < 7) {
+  //     lastPremiumEditionImgNum += 1;
 
-      ul.style.marginLeft = -(lastPremiumEditionImgNum-3) * moveWidth +'px';
+  //     ul.style.marginLeft = -(lastPremiumEditionImgNum-3) * moveWidth +'px';
 
-      moveBtnLeft.style.visibility = "visible";
+  //     moveBtnLeft.style.visibility = "visible";
 
-      if (lastPremiumEditionImgNum === 7) {
-        moveBtnRight.style.visibility = "hidden";
-      }
-    }
-  });
+  //     if (lastPremiumEditionImgNum === 7) {
+  //       moveBtnRight.style.visibility = "hidden";
+  //     }
+  //   }
+  // });
 
   const moreMenuBtn = document.querySelector('#more-menu');
   const subMenuBox = document.querySelector('#sub-nav-box');

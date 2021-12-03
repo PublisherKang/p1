@@ -18,7 +18,7 @@
 
 .pc_title{display: none;}
 
-.cont1 .content_wrap{margin-bottom: 11.66666vw;} /* 수정예정 */
+.cont1 .content_wrap{ width: 65.10416vw; margin: 0 auto 11.66666vw;}
 
 .cont1 .price{padding-left: 6vw; margin-bottom: 13.33333vw;}
 .cont1 .price ul{}
@@ -38,12 +38,16 @@
 
 @media screen and (min-width:768px) {
     .gnb{display: none;}
+    .cont1 .content_wrap{width: 500px; height: 500px; margin: 0 auto 11.66666vw;;}
 }
 
 
 
 
 @media screen and (min-width:1200px) {
+    .gnb{display: none;}
+
+
     /* container */
     #mint_container{padding: 66px 0 184px; background: url(../mint_img/web/back1.png) no-repeat 0 0 / cover;}
     
@@ -57,7 +61,7 @@
 
     .cont1_inner{width: 1200px; margin: 0 auto;}
     .cont1 .content_wrap{width: 500px; height: 500px; float: left;}
-    .cont1 .content_wrap{margin-bottom: 0;}
+
     .cont1_inner::after{content: ""; display: block; clear: both;}
     .cont1 .price{float: left; padding-left: 36px; margin-bottom: 0; margin-bottom: 60px;}
     .cont1 .price li{font-size: 32px; line-height: 64px;}

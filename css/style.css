@@ -24,7 +24,7 @@ section h2{display: none;}
 
 .cont1_inner p .sub_title{font-size: 5vw;}
 
-.cont1 .mint{display: block; width: 40vw; height: 6.5vw; margin-top: 5vw; border-radius: 40px; text-align: center; font-size: 4vw; line-height: 7vw; border: 2px solid #fff; color: #fff;}
+.cont1 .mint{display: block; width: 40vw; height: 6.5vw; margin-top: 5vw; border-radius: 40px; text-align: center; font-size: 4vw; line-height: 7vw; border: 2px solid #fff; color: #fff; background: #6dc406;}
 .cont1 .mint:hover{background-color: #2b9fd2;}
 .cont1 .mint-btn{}
 
@@ -146,7 +146,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 #wait_pop{width: 100%; height: 100%; position: fixed; top: 0; left: 0;  background: rgba(0, 0, 0, .8); z-index: 600; display: none;}
 
-#wait_pop img{width: 60vw; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50px;}
+#wait_pop img{width: 60vw; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50px; box-shadow: 10px 10px 10px #000;}
 
 
 
@@ -291,6 +291,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     /* 데스크탑 */
     #container{padding: 0;}
     .road_text li:nth-of-type(3) span{padding: 3vw 3vw 2vw 23.5vw;}
+    .cont1 .mint{width: 39.0625vw; font-size: 3.90625vw; height: 9vw; line-height: 8.85416vw; border-radius: 30px;}
 }
 
 @media screen and (min-width:1200px) {
@@ -384,6 +385,6 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     .contact ol{width: 84%;}
     .contact ol li{font-size: 16px; line-height: 26px; margin-bottom: 20px;}
 
-    
+    .cont1 .mint{width: 300px; font-size: 30px; height: 68px; line-height: 68px; border-radius: 30px;}
 }
 
