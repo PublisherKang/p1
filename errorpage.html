@@ -7,7 +7,7 @@
     <title>EtherBucks</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/mint_comple.css">
+    <link rel="stylesheet" href="css/errorpage.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
@@ -32,32 +32,17 @@
             </nav>
             <a id="mint_home" href="index.html">Home</a>
         </header>
-        <div id="mint_container">
-            <section class="cont1">
-                <h2>Thank you for</h2>
-                <p class="sub_title">purchasing<br>EtherBucks.</p>
-                <p class="pc_title">Thank you for purchasing EtherBucks.</p>
-                <div class="cont1_inner">
-                    <div class="content_wrap">
-                        <video width="100%" height="100%" loop autoplay muted>
-                            <source src="mov/mint_mov.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="txt_list">
-                        <p>
-                            This image is from the EtherBucks<br class="m_br">you purchased. If you have purchased<br class="m_br">2 or more, <br class="pc_br">please check the Metamask wallet.
-                        </p>
-                    </div>
-                </div>
+        <div id="error_container">
+            <section class="error_cont1">
+                <img class="error_ico" src="images/error_img/error_img.png" alt="">
+                <h2>WE ARE SORRY</h2>
+                <p>
+                    Minting could not be completed because<br>an error occurred during the process.<br>Please try minting again.
+                </p>
+                <a class="back_btn" href="mint.html">
+                    <img src="images/error_img/backimg.png" alt="">
+                </a>
             </section>
-            <div class="comple_btn">
-                <button class="etherscan">
-                    <a href="#">Etherscan <i>&rtrif;</i></a>
-                </button>
-                <button class="com_Home">
-                    <a href="index.html">Home <i>&rtrif;</i></a>
-                </button>
-            </div>
         </div>
         <footer id="footer">
             <h5>

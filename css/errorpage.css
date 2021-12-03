@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#wrap{}
+
+.mobi_button{display: none;}
+.gnb{display: none;}
+
+
+#error_container{padding: 0 6.66666vw 20.66666vw; padding-top: 66px; background: url(../images/mint_img/web/back1.png) no-repeat 0 0 / cover;}
+
+.error_ico{display: block; width: 52vw; height: auto; margin: 0 auto 6vw;}
+
+.error_cont1 h2{font-size: 8vw; line-height: 6vw; font-family: "sebang-bold"; color: #fff; text-align: center; margin-bottom: 7vw; text-shadow: 6px 6px 10px #000;}
+
+.error_cont1{padding-top: 10vw;}
+
+.error_cont1 p{color: #fff; text-align: center; font-size: 3.4vw; text-shadow: 4px 4px 10px #000; margin-bottom: 8vw; line-height: 6.4vw;}
+
+.back_btn{display: block; margin: 0 auto; width: 22vh; height: auto;}
+
+@media screen and (min-width: 600px){
+    .error_cont1 p{font-size: 2.6vw; line-height: 4.6vw;}
+    .back_btn{width: 26vh;}
+}
+
+@media screen and (min-width: 1201px) {
+    #error_container{padding-bottom: 120px;}
+    .error_cont1{padding-top: 100px;}
+    .error_cont1 h2{font-size: 50px; margin-bottom: 0;}
+    .error_ico{width: 300px; margin: 0 auto}
+    .error_cont1 p{font-size: 18px; line-height: 32px; margin-bottom: 40px;}
+}
