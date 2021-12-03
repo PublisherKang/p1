@@ -35,6 +35,12 @@
 
 @media screen and (min-width:768px) {
     .gnb{display: none;}
+    .cont1 .content_wrap{width: 500px; height: 500px; margin: 0 auto 6.66666vw;}
+    
+    .cont1 .txt_list{padding-left: 0; margin-bottom: 5.666vw;}
+    .cont1 .txt_list p{font-size: 2.4vw; line-height: 4vw;}
+    .etherscan, .com_Home{font-size: 3vw; width: 44vw; height: 8vw;}
+    .etherscan a, .com_Home a{line-height: 8.4vw;}
 }
 
 
