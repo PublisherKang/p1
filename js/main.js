@@ -46,4 +46,26 @@ $(document).ready(function(){
     $(".closeBtn").click(function(){
         $("#mobile_sideMenu").css("display", "none");
     })
+
+
+
+
+
+
+
+
+    // mint wait
+    $("#mintIn").click(function(e){
+        e.preventDefault()
+        $("#wait_pop").show();
+    })
+
+    $("#wait_pop").click(function(){
+        $(this).hide();
+    })
+
+    
+
+
+
 })
