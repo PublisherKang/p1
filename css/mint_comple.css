@@ -21,9 +21,14 @@
 
 .cont1 .content_wrap{ width: 65.10416vw; margin: 0 auto 11.66666vw;}
 
-.cont1 .txt_list{margin-bottom: 12.66666vw; padding-left: 4vw;}
+.cont1 .txt_list{margin-bottom: 3.66666vw; padding-left: 4vw;}
 .cont1 .txt_list p{list-style: decimal; color: #fff; font-size: 3.33333vw; line-height: 5vw; margin-bottom: 4vw; text-align: center;}
 .cont1 .txt_list p:last-child{margin-bottom: 0;}
+
+/*  */
+.cont1 .txt_list .txid_txt{display: block; color: #ff0; text-align: center; margin-top: 5vw; font-size: 1.2vw; word-break: break-all;}
+.cont1 .txid_txt i{color: #fff; font-size: 1.4vw;}
+
 
 .etherscan, .com_Home{background: #00ffff; width: 63.33333vw; text-align: center; font-size: 4.8vw; font-family: "sebang-bold"; border: none; border-radius: 10px; display: block; margin: 0 auto; height: 13.33333vw; cursor: pointer; margin-bottom: 30px; position: relative;}
 
@@ -31,6 +36,8 @@
 .etherscan i, .com_Home i{font-size: 9vw; position: absolute; top: 62%; right: 3vw; transform: translateY(-50%);}
 
 .com_Home{background: #f7c21e;}
+
+.loading_svg{width: 30px; height: auto; display: block; margin: 0 auto; margin-bottom: 3vw;}
 
 
 @media screen and (min-width:768px) {
@@ -66,7 +73,7 @@
     .cont1 .content_wrap{width: 400px; height: 400px; margin-bottom: 36px;}
     .cont1_inner::after{content: ""; display: block; clear: both;}
 
-    .cont1 .txt_list{margin: 0 auto; padding: 0; margin-bottom: 40px;}
+    .cont1 .txt_list{margin: 0 auto; padding: 0; margin-bottom: 10px;}
     .cont1 .txt_list p{font-size: 18px; line-height: 28px;}
 
     .comple_btn{display: flex; width: 646px; justify-content: space-between; margin: 0 auto;}
@@ -74,4 +81,10 @@
     .etherscan a, .com_Home a{line-height: 74px;}
     .etherscan i, .com_Home i{font-size: 84px; right: 0;}
 
+    .cont1 .txt_list .txid_txt{margin-top: 30px; font-size: 12px;}
+    .cont1 .txid_txt i{color: #fff; font-size: 18px;}
+
+
+    /* svg img */
+    .loading_svg{margin-bottom: 10px;}
 }

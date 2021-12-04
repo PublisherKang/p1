@@ -12,7 +12,7 @@ $(document).ready(function(){
         //alert(index);
 
         var section = cont.eq(index);
-        var offset = section.offset().top;
+        var offset = section.offset().top - 65;
         
         $("html, body").stop().animate({ scrollTop: offset },500);
         
@@ -27,7 +27,7 @@ $(document).ready(function(){
         //alert(index);
 
         var section = cont.eq(index);
-        var offset = section.offset().top;
+        var offset = section.offset().top - 65;
         
         $("html, body").stop().animate({ scrollTop: offset },500);
         
