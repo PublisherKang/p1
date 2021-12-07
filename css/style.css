@@ -3,6 +3,7 @@
 #wrap{width: 100%;}
 
 /* 스마트폰 세로 */
+#video2{width: 100%;}
 
 
 /* container */
@@ -26,6 +27,8 @@ section h2{display: none;}
 .cont1 .mint{display: block; width: 40vw; height: 6.5vw; margin-top: 5vw; border-radius: 40px; text-align: center; font-size: 4vw; line-height: 7vw; border: 2px solid #fff; color: #fff; background: #6dc406;}
 .cont1 .mint:hover{background-color: #2b9fd2;}
 .cont1 .mint-btn{}
+
+.cont6 .mintbtn{display: inline-block; width: 11vw; border-radius: 40px; text-align: center; font-size: 2vw; line-height: 3vw; border: 2px solid #fff; color: #fff; background: #6dc406; padding: 1vw;}
 
 
 .cont2_inner{background: url(../images/mainbanner-back-mobile.png) no-repeat 0 0/cover; position: relative;}
@@ -56,6 +59,9 @@ section h2{display: none;}
 .details p{color: #fff;}
 .dtail_title, .rarity_title, .roadmap-title{font-size: 6vw; line-height: 10vw; margin-bottom: 14px; font-family: "sebang-bold";}
 .detail_description, .rarity_description, .road_text{margin-bottom: 8vw; font-size: 2.3vmin; line-height: 4vw; letter-spacing: 1.5px;}
+
+.details .detail_img{width: 82vw;}
+.details .detail_img video{width: 100%;}
 
 .rarity{margin-bottom: 40px;}
 .rarity p{color: #fff;}
@@ -140,7 +146,7 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
 
 .contact img{display: block; width: 98%; height: auto; margin: 4vw auto;}
 
-.contact ol{width: 94%; margin: 0 auto;}
+.contact ol{width: 96%; margin: 0 auto;}
 .contact ol li{list-style: decimal; color: #fff; font-size: 4vw; line-height: 5vw; margin-bottom: 4vw; letter-spacing: 1.5px;}
 
 .contact .price_info{width: 96%; margin: 0 auto; display: flex;}
@@ -324,7 +330,6 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     .menu-title{font-size: 28px; line-height: 34px;}
     .menu-description, .detail_description, .rarity_description{font-size: 18px; line-height: 30px;}
     .detail_img{margin-top: 0;}
-
     .dtail_title, .rarity_title, .roadmap-title, .content-box h3, .historian .header-title{font-size: 56px; line-height: 70px; margin-bottom: 30px;}
 
     .rarity ul li{width: 400px;}
@@ -401,5 +406,9 @@ border-bottom: 2px solid #fff; margin-bottom: 16px; font-size: 4vw; line-height:
     .contact .price_info img{width: 240px; height: auto; margin: 50px auto;}
 
     .cont1 .mint{width: 300px; font-size: 30px; height: 68px; line-height: 68px; border-radius: 30px;}
+
+    .cont6 .mintbtn{width: 76px; line-height: 12px; font-size: 12px; padding: 6px 6px;}
+    .details{margin-bottom: 50px;}
+    .detail_img{max-width: 570px;}
 }
 

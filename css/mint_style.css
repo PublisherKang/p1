@@ -33,7 +33,7 @@
 
 .metamask{background: #00ffff; width: 63.33333vw; text-align: center; font-size: 4.8vw; font-family: "sebang-bold"; border: none; border-radius: 10px; display: block; margin: 0 auto; height: 13.33333vw; cursor: pointer;}
 
-
+.cont1 .txt_list p{font-size: 4.3vw; color: #fff; margin-bottom: 3vw; line-height: 1;}
 
 
 @media screen and (min-width:768px) {
@@ -77,6 +77,9 @@
 
     .cont1 .txt_list{margin-bottom: 0; padding-left: 56px; float: left; width: 690px;}
     .cont1 .txt_list li{font-size: 16px; line-height: 28px; margin-bottom: 20px;}
-
+    .cont1 .txt_list p{font-size: 30px; color: #fff; margin-bottom: 14px; line-height: 1;}
+    .cont1 .txt_list.no1{margin-bottom: 40px;}
+    .cont1 .txt_list.no2{float: right; margin-bottom: 40px;}
+    
     .metamask{width: 380px; height: 70px; font-size: 26px; margin: 0 auto;}
 }
