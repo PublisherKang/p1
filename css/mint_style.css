@@ -35,6 +35,13 @@
 
 .cont1 .txt_list p{font-size: 4.3vw; color: #fff; margin-bottom: 3vw; line-height: 1;}
 
+.popup_wrap{width: 100%; height: 100%; background: rgba(0, 0, 0, .75); position: fixed; top: 0; left: 0; display: none; z-index: 600;}
+
+.pop_inner{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.pop_inner p{color: #fff; font-size: 4vw; line-height: 12vw; text-align: center;}
+.pop_inner img{width: 10vw; height: auto; margin: 0 auto; display: block;}
+
+
 
 @media screen and (min-width:768px) {
     .gnb{display: none;}
@@ -45,6 +52,9 @@
     .cont1 .txt_list li{font-size: 2.33333vw; line-height: 4vw; margin-bottom: 2vw;}
 
     .metamask{font-size: 3vw; width: 44vw; height: 8vw;}
+
+    .pop_inner p{font-size: 20px; line-height: 50px;}
+    .pop_inner img{width: 70px;}
 }
 
 

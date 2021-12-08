@@ -61,7 +61,13 @@ $(document).ready(function(){
     // })
 
     
-
+    $(".metamask").click(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $(".popup_wrap").show();
+        $('html, body').css({'overflow': 'hidden', 'height': '100%'});
+        return false;
+    })
 
 
 })
