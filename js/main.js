@@ -1,9 +1,9 @@
 $(document).ready(function(){
     // pc 메뉴 이동
-    var nav = $(".gnb ul li");
+    var nav = $(".gnb > ul > li");
     var cont = $("#container > section");
 
-    var sub_nav = $(".gnb_mobile ul li")
+    var sub_nav = $(".gnb_mobile > ul > li");
 
     nav.click(function(c){
         c.preventDefault();
@@ -41,11 +41,11 @@ $(document).ready(function(){
         $(".gnb_mobile").css({
             'transform': 'translateX(0)',
         })
-    })
+    });
 
     $(".closeBtn").click(function(){
         $("#mobile_sideMenu").css("display", "none");
-    })
+    });
 
 
 
@@ -67,7 +67,11 @@ $(document).ready(function(){
         $(".popup_wrap").show();
         $('html, body').css({'overflow': 'hidden', 'height': '100%'});
         return false;
-    })
+    });
 
+});
 
-})
+function metamaskPopHidden(){
+    $(".popup_wrap").hide();
+    $('html, body').css({'overflow': 'visible'});
+};
